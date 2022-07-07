@@ -4,8 +4,8 @@ import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.Period;
 
-@Entity //for hibernate
-@Table //for table in db
+@Entity
+@Table
 public class Student {
     @Id
     @SequenceGenerator(
